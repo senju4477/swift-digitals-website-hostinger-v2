@@ -1,0 +1,171 @@
+{
+  "verified_at_utc": "2026-10-01T16:13:46.047793+00:00",
+  "source_commit": "b93c2bbf1698f284e6c5bc8142caf125b3f2696c",
+  "node": "22.23.3",
+  "npm": "10.9.4",
+  "next": "16.3.8",
+  "database": "Isolated MariaDB 10.11.14 (MySQL-compatible), no original/source database writes",
+  "clean_installs": {
+    "main": "passed",
+    "independent_clean_copy": "passed"
+  },
+  "builds": {
+    "preview_indexing_false": "passed_without_database_settings",
+    "production_indexing_true": "passed_without_database_settings"
+  },
+  "lint": {
+    "errors": 0,
+    "warnings": 7,
+    "warning_rule": "@next/next/no-img-element, existing images retained"
+  },
+  "typecheck": "passed",
+  "config_tests": {
+    "passed": 2,
+    "failed": 0
+  },
+  "production_dependency_audit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "preservation": {
+    "stylesheet_byte_identical": true,
+    "public_assets_byte_identical": true,
+    "sqlite_history_byte_identical": true,
+    "source_worktree_unchanged": true
+  },
+  "suites": [
+    {
+      "suite": "integration",
+      "tested_at_utc": "2026-10-01T16:06:31.493Z",
+      "node": "v22.23.3",
+      "database": "Isolated MySQL-compatible database",
+      "results": [
+        {
+          "name": "versioned migrations run and rerun safely",
+          "status": "passed"
+        },
+        {
+          "name": "non-default PORT and explicit 0.0.0.0 binding",
+          "status": "passed"
+        },
+        {
+          "name": "all 12 public routes, canonical URLs and JSON-LD",
+          "status": "passed"
+        },
+        {
+          "name": "static assets, sitemap and preview robots",
+          "status": "passed"
+        },
+        {
+          "name": "genuine enquiries succeed only with durable, parameterized MySQL storage",
+          "status": "passed"
+        },
+        {
+          "name": "idempotent retries and concurrent duplicate UUIDs",
+          "status": "passed"
+        },
+        {
+          "name": "five-per-hour limit is enforced for simultaneous submissions",
+          "status": "passed"
+        },
+        {
+          "name": "validation, cross-site rejection, content type, body bytes, HTTP methods and honeypot",
+          "status": "passed"
+        },
+        {
+          "name": "public pages stay available without database config; genuine submissions fail clearly",
+          "status": "passed"
+        },
+        {
+          "name": "database outage returns 503 without false success or exposed internals",
+          "status": "passed"
+        },
+        {
+          "name": "Drizzle MySQL adapter reads and writes using the shared lazy pool",
+          "status": "passed"
+        },
+        {
+          "name": "D1 converter preserves Unicode, IDs and timestamps; repeat import is idempotent; conflicts fail",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "suite": "browser",
+      "tested_at_utc": "2026-10-01T16:10:59.705Z",
+      "viewport_desktop": "1440x1000",
+      "viewport_mobile": "390x844",
+      "results": [
+        {
+          "name": "desktop all routes have visible headings, resolved images and no horizontal overflow",
+          "status": "passed"
+        },
+        {
+          "name": "package link preselects the enquiry service during Next.js navigation",
+          "status": "passed"
+        },
+        {
+          "name": "desktop enquiry form submits successfully and shows its reference",
+          "status": "passed"
+        },
+        {
+          "name": "mobile all routes fit the viewport; navigation works",
+          "status": "passed"
+        },
+        {
+          "name": "mobile select, keyboard access and FAQ disclosure",
+          "status": "passed"
+        },
+        {
+          "name": "no browser page errors",
+          "status": "passed"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "suite": "handover",
+      "tested_at_utc": "2026-10-01T16:09:30.716Z",
+      "results": [
+        {
+          "name": "phpMyAdmin schema SQL is executable, repeatable and checksum-protected",
+          "status": "passed"
+        },
+        {
+          "name": "npm start defaults to port 3000 and binds 0.0.0.0",
+          "status": "passed"
+        },
+        {
+          "name": "clean production-indexable build has correct robots, metadata and host-specific preview noindex",
+          "status": "passed"
+        }
+      ]
+    }
+  ],
+  "not_tested": [
+    {
+      "item": "Hostinger deployment, runtime patch, assigned port, real database connectivity, temporary URL, SSL/domain routing",
+      "reason": "No Node.js Web App management connection or account dashboard was used; app/database not created."
+    },
+    {
+      "item": "Oracle MySQL server and Hostinger production database version",
+      "reason": "The isolated real SQL server was MariaDB 10.11.14; exact Hostinger database engine/version is not observed."
+    },
+    {
+      "item": "External Cloudflare-account D1 export/catch-up",
+      "reason": "Account access was not available; only the repository-linked Sites database was read, finding zero rows."
+    },
+    {
+      "item": "Optional email delivery",
+      "reason": "Not implemented in the source or new copy; not required for migration."
+    },
+    {
+      "item": "WebMCP tool registration/execution",
+      "reason": "Standard test browser did not expose document.modelContext; fallback and visible form were verified."
+    }
+  ]
+}

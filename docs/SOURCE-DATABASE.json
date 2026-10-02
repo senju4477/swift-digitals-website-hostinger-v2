@@ -1,0 +1,35 @@
+{
+  "inspected_at_utc": "2026-10-01T15:54:04.668Z",
+  "source": "Repository-linked Sites D1 database; read-only table export",
+  "binding": "DB",
+  "table": "enquiries",
+  "pages": [
+    {
+      "binding_name": "DB",
+      "table_name": "enquiries",
+      "columns": [
+        "id",
+        "name",
+        "email",
+        "phone",
+        "website",
+        "service",
+        "message",
+        "created_at"
+      ],
+      "rows": [],
+      "limit": 25,
+      "offset": 0,
+      "has_more": false,
+      "model_projection": {
+        "truncated": false,
+        "truncated_values": 0,
+        "omitted_columns": 0,
+        "omitted_rows": 0,
+        "next_offset": null
+      }
+    }
+  ],
+  "limitations": "This is the complete bounded read-only enquiries table result with no truncation and no next page. The separately configured Cloudflare account database in vite.config.ts was not accessed. Re-export the actual live source before a later authorised cutover.",
+  "privacy_note": "Project and storage identifiers are omitted from the GitHub copy. The inspected enquiries table was empty; no customer records or credentials are included."
+}
