@@ -28,4 +28,4 @@ Configuration checks: `npm test`. Integration verification: provide an **isolate
 
 Read [the full handover](docs/HOSTINGER-HANDOVER.md) for exact Hostinger settings, environment reference, schema setup, D1 transfer, indexing, rollback and remaining manual steps. Read [inspection](docs/INSPECTION.md), [test results](docs/TEST-RESULTS.md) and [primary sources](docs/SOURCES.md). Screenshots are in `docs/previews/`.
 
-No new GitHub repository or Hostinger deployment is claimed to exist. Upload this project to a **new** repository, deploy to a **separate** app/temporary URL, verify it there, and obtain a separate explicit instruction before moving `swiftdigitals.au`.
+This independent project is uploaded to the private repository [senju4477/swift-digitals-website-hostinger-v2](https://github.com/senju4477/swift-digitals-website-hostinger-v2), branch `main`. Hostinger deployment remains pending. Deploy to a **separate** app/temporary URL, verify it there, and obtain a separate explicit instruction before moving `swiftdigitals.au`. Project identifiers are omitted from the source-database audit record uploaded to GitHub.
