@@ -45,4 +45,4 @@ Local passes do not establish a successful Hostinger deployment. Run a labelled 
 
 ## GitHub delivery update — 2 October 2026
 
-The separate private repository `senju4477/swift-digitals-website-hostinger-v2` has been created on branch `main`. The website, assets and setup documents are being uploaded there. The original repository is unchanged. The earlier local verification record is preserved; Hostinger deployment remains pending. Project identifiers are omitted from the GitHub copy of the empty source-database audit record.
+The separate private repository `senju4477/swift-digitals-website-hostinger-v2` has been created on branch `main`. The website, assets and setup documents are uploaded there. The original repository is unchanged. The earlier local verification record is preserved; Hostinger deployment remains pending. Project identifiers are omitted from the GitHub copy of the empty source-database audit record.

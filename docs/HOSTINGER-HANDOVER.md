@@ -34,7 +34,7 @@ Create a **separate** Node.js Web App through **Websites → Add Website → Nod
 
 | Setting | Value for this implementation |
 |---|---|
-| Repository | `senju4477/swift-digitals-website-hostinger-v2` after you create/upload it |
+| Repository | `senju4477/swift-digitals-website-hostinger-v2` — separate private repository, created and uploaded |
 | Branch | `main` |
 | Root directory | `/`, or blank when hPanel means repository root |
 | Framework / application type | Next.js / `next` — server mode |
