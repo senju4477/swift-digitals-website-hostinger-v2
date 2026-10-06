@@ -19,7 +19,7 @@ export const pageInfo: Record<string,{title:string;description:string;label:stri
  'seo-digital-marketing':{title:'SEO & Digital Marketing Melbourne',label:'SEO & digital marketing',description:'SEO and digital marketing for Melbourne service businesses. Local search, useful service content and Google Ads planning with clearly agreed scope.'},
  'ai-automation':{title:'AI Automation for Melbourne Businesses',label:'AI automation',description:'Reduce repetitive admin with AI automation for your Melbourne business. Explore customer intake, enquiry follow-ups and integrations with human review.'},
  'services':{title:'Web Design, SEO & AI Automation Services',label:'Services',description:'Explore Swift Digitals services: website design, NDIS websites, online stores, local SEO, digital marketing and AI automation. Based in Sunshine, Melbourne.'},
- 'our-work':{title:'Website Design Concepts',label:'Our work',description:'Explore illustrative allied health and e-commerce website concepts from Swift Digitals. See our approach to clear content, thoughtful design and usability.'},
+ 'our-work':{title:'Our Work | Website Projects',label:'Our work',description:'Explore websites created by Swift Digitals for cleaning, NDIS support, renovations, beauty and packaging businesses. View the projects and visit each site.'},
  'packages':{title:'Website Packages Melbourne',label:'Packages',description:'Compare business website, growing business and online store packages. Get a tailored proposal with clear scope, inclusions and costs from Swift Digitals.'},
  'about':{title:'About Swift Digitals | Melbourne Web Design',label:'About',description:'Meet the approach behind Swift Digitals, a Sunshine-based web design and digital solutions business serving Melbourne and businesses across Australia.'},
  'contact':{title:'Contact Swift Digitals Melbourne',label:'Contact',description:'Discuss your website, SEO or AI automation project with Swift Digitals. Based in Sunshine, Melbourne. Call 0469 785 113 or send a project enquiry.'},
@@ -31,3 +31,4 @@ export const commonFaq = [
  ['Can I update the website after launch?','We discuss the updates you need to make yourself and recommend an appropriate editing setup. Any content management system, training or handover support is included in the agreed project scope.'],
  ['How much does a website cost?','The cost depends on the number of pages, content, integrations and functionality. Tell us what you need and we can provide a scoped quote before you commit.'],
 ];
+
